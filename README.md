@@ -22,8 +22,13 @@ cd wordpress-docker
 ### 2. Extract files from the site.zip
 
 
+### 3. CD to site folder
 
-### 3. Run the Docker command to start the services:
+```
+cd site
+```
+
+### 4. Run the Docker command to start the services:
 
 ```
 docker-compose up -d
@@ -33,7 +38,7 @@ This command will start the MySQL database, WordPress, and PHPMyAdmin containers
 
 
 
-### 4. Access the WordPress and PHPMyAdmin
+### 5. Access the WordPress and PHPMyAdmin
 
 PHPMyAdmin : http://localhost:8011
 
